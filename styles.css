@@ -1,0 +1,76 @@
+* {
+    box-sizing: border-box;
+}
+
+
+.outcome{
+    padding-top: 80px;
+    text-align: right;
+    background-color: black;
+    color: white;
+    font-size: xx-large;
+    width: 360px;
+    margin-left: 700px;
+    
+}
+.devision{
+    padding-left: 700px;
+    padding-right: 800px ;
+    display: grid;
+    grid-template-areas: "clear back devide";
+    grid-template-columns: 2fr 1fr 1fr;
+    height: 80px;
+    width: 1860px;
+    font-size: xx-large;
+
+}
+.multiplication{
+    padding-left: 700px;    
+    padding-right: 800px ;
+    display: grid;
+    grid-template-areas: "7 8 9 multiply";
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    height: 80px;
+    width: 1860px;
+    font-size: xx-large;
+}
+.subtraction{
+    padding-left: 700px;    
+    padding-right: 800px ;
+    display: grid;
+    grid-template-areas: "4 5 6 minus";
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    height: 80px;
+    width: 1860px;
+    font-size: xx-large;
+}
+.addition{
+    padding-left: 700px;    
+    padding-right: 800px ;
+    display: grid;
+    grid-template-areas: "1 2 3 add";
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    height: 80px;
+    width: 1860px;
+    font-size: xx-large;
+}
+.isequal{
+    padding-left: 700px;    
+    padding-right: 800px ;
+    display: grid;
+    grid-template-areas: "0 equal";
+    grid-template-columns: 3fr 1fr;
+    height: 80px;
+    width: 1860px;
+    font-size: xx-large;
+}
+.operator{
+    background-color: #df974c;
+    color: white;
+    font-size: xx-large;
+}
+
+
+
+
+

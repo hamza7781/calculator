@@ -22,7 +22,7 @@ function handleNumber(number){
         
     }
 }
-
+// function handles math function
 function handleMath(value) {
     if (buffer === '0') {
         // do nothing
@@ -98,4 +98,3 @@ function rerender() {
 
 
 init();
-function init
